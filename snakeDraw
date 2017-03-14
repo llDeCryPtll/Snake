@@ -1,0 +1,12 @@
+var drawModule = (function()
+  {
+    var bodySnake = function(x, y) //This here is the snake itself
+    {
+    //Just one square for the snake
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
+    //The border of the squares
+    ctx.strokeStyle = 'darkgray';
+    ctx.strokeRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
+    }
+  }
