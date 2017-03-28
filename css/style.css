@@ -1,0 +1,42 @@
+#Home {
+	width:400px;
+	height:400px;
+	background-image: url(../img/blue-snake.png);
+	background-size:auto 400px;
+	background-repeat:no-repeat;
+	background-color:lightgray;
+	background-position:center center;
+	padding:0;
+	margin:03; 
+}
+
+button {
+	background-color:salmon;
+	color:white;
+	border:none;
+	height:30px;
+	font-size:12pt;
+	float:left;
+	width:90px;
+	margin:10px 0px 0px 0px;
+}
+
+button:hover {
+	background-color:darksalmon;
+}
+
+button:disabled {
+	background-color:darkgray;
+}
+
+p {
+	font-family:Helvetica;
+	font-weight:bold;
+	width:300px;
+	margin:18px 0px 5px 8px;
+	float:left;
+}
+
+.Game {
+	margin:0 auto;
+}
