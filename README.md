@@ -1,2 +1,0 @@
-# Snake
-School project
